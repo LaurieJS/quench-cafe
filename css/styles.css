@@ -239,7 +239,7 @@ footer p {
 }
 
 
-/**********************Locations Page*****************/
+/**********************************Locations Page****************************************/
 
 /*********Social Media Icons*********/
 
@@ -352,3 +352,401 @@ div.border {
 
     /*border-top: 2px dashed black;*/
 }
+
+
+/*******************************About Us Page****************************************************/
+
+/*********Social Media Icons*********/
+
+.aboutus_main > section:first-of-type {
+    width: 11.5%;
+    float: right;
+    margin-top: 20px;
+    margin-right: -8px;
+    margin-bottom: 20px;
+}
+
+.aboutus_main > section:first-of-type p:first-of-type {
+    text-align: center;
+}
+
+/*********Main Content*********/
+section.aboutus_main {
+    width: 923px; /*74.21875%;*/
+    float: left;
+    margin-right: 47px;
+}
+
+.aboutus_main h1 {
+    clear: both;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    border-bottom: 2px dashed black;
+}
+
+.info p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-right: 47px;
+}
+
+.info p:nth-of-type(2) {
+    margin-top: 8px;
+}
+
+/*****About Us Info section*******/
+.info > section:first-of-type {
+    width: 50%;
+    float:left;
+}
+/*****About Us Images section*******/
+.info > section:last-of-type {
+    width: 50%;
+    float:right;
+    margin-top: 47px;
+    margin-bottom: 47px;
+}
+
+.info > section img:first-of-type {
+    margin-bottom: 47px;
+}
+
+.info h2 {
+    font-size: 26px;
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+
+.info section article:nth-of-type(2), .info section article:nth-of-type(3) {
+    margin-top: 30px;
+}
+
+
+/*******************************Terms of Use Page*******************************************/
+
+/*********Social Media Icons*********/
+
+.terms_main > section:first-of-type {
+    width: 11.5%;
+    float: right;
+    margin-top: 20px;
+    margin-right: -8px;
+    margin-bottom: 20px;
+}
+
+.terms_main > section:first-of-type p:first-of-type {
+    text-align: center;
+}
+
+/*********Main Content*********/
+section.terms_main {
+    width: 923px; /*74.21875%;*/
+    float: left;
+    margin-right: 47px;
+}
+
+.terms_main h1 {
+    clear: both;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    border-bottom: 2px dashed black;
+}
+
+/*****Terms Info section*******/
+.legal > section:first-of-type {
+    width: 50%;
+    float:left;
+}
+/*****Terms Images section*******/
+.legal > section:last-of-type {
+    width: 50%;
+    float:right;
+    margin-top: 47px;
+    margin-bottom: 47px;
+}
+
+.legal > section img:first-of-type {
+    margin-bottom: 47px;
+}
+
+.legal h2 {
+    font-size: 26px;
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+
+.legal p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-right: 47px;
+}
+
+.legal p:nth-of-type(2), .legal p:nth-of-type(3), .legal p:nth-of-type(4), .legal p:nth-of-type(5) {
+    margin-top: 17px;
+    color: #4d4d4d;
+}
+
+/***********************************************Coffees Page******************************/
+.coffees_main > section:first-of-type {
+    width: 11.5%;
+    float: right;
+    margin-top: 20px;
+    margin-right: -8px;
+    margin-bottom: 20px;
+}
+
+.coffees_main > section:first-of-type p:first-of-type {
+    text-align: center;
+}
+
+/*********Main Content*********/
+section.coffees_main {
+    width: 923px; /*74.21875%;*/
+    float: left;
+    margin-right: 47px;
+}
+
+.coffees_main h1 {
+    clear: both;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    border-bottom: 2px dashed black;
+}
+
+/*****Coffees Info section*******/
+.coffees > section:first-of-type {
+    width: 50%;
+    float:left;
+}
+/*****Coffees Images section*******/
+.coffees > section:last-of-type {
+    width: 50%;
+    float:right;
+    margin-top: 47px;
+    margin-bottom: 47px;
+}
+
+.coffees > section img:first-of-type {
+    margin-bottom: 47px;
+}
+
+.coffees a {
+    display: block;
+    width: 259px;
+    height: 32px;
+    background-color: #1dafbd;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    margin: 40px auto 0 auto;
+    color: white;
+    font-size: 19px;
+
+}
+
+.coffees h2 {
+    font-size: 26px;
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+
+.coffees p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-right: 47px;
+}
+.coffees p:nth-of-type(2) {
+    margin-top: 8px;
+}
+
+/*****Image Gallery*****/
+
+.coffee_gallery {
+    width: 100%;
+    height: 621px;
+    background-color: rgba(29, 175, 189, .20);
+    clear: both;
+}
+
+.coffee_gallery h3 {
+    padding-top: 84px;
+    margin-left: 47px;
+    font-size: 24px;
+}
+
+.coffee_gallery p {
+    margin-left: 47px;
+    margin-top: 10px;
+}
+
+.coffee_gallery h4 {
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.coffee_gallery section {
+    width: 360px;
+    height: 390px;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.coffee_gallery section:first-of-type {
+    margin-left: 47px;
+}
+
+.coffee_gallery section:nth-of-type(2) {
+    margin-right: 52px;
+    margin-left: 52px;
+}
+
+
+/***********************************************Contact Us Page******************************/
+.contact_main > section:first-of-type {
+    width: 11.5%;
+    float: right;
+    margin-top: 20px;
+    margin-right: -8px;
+    margin-bottom: 20px;
+}
+
+.contact_main > section:first-of-type p:first-of-type {
+    text-align: center;
+}
+
+/*********Main Content*********/
+section.contact_main {
+    width: 923px; /*74.21875%;*/
+    float: left;
+    margin-right: 47px;
+}
+
+.contact_main h1 {
+    clear: both;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    border-bottom: 2px dashed black;
+}
+
+.contact > section:first-of-type {
+    width: 560px;
+    height: 552px;
+    float: left;
+    background-color: rgba(29, 175, 189, .20);
+    margin-bottom: 40px;
+}
+
+.contact > section:last-of-type {
+    width: 28%;
+    height: auto;
+    float: right;
+    margin-top: 115px;
+    margin-left: 80px;
+}
+
+.contact ul:first-of-type {
+    margin-bottom: 80px;
+}
+.contact h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.contact li {
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+.contact form {
+    padding-top: 35px;
+    padding-left: 109px;
+}
+
+.contact form label {
+    display: block;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.contact input[type=text] {
+    width: 206px;
+    height: 32px;
+    font-size: 16px;
+}
+
+.contact input[type=submit] {
+    background-color: #1dafbd;
+    width: 189px;
+    height: 32px;
+    color: white;
+    border: none;
+    font-size: 19px;
+    margin-top: 15px;
+    margin-left: 75px;
+}
+
+.contact form textarea {
+    display: block;
+    width: 338px;
+    height: 139px;
+    margin-top: 5px;
+}
+
+.contact h2 {
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+.contact p {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    line-height: 1.3;
+}
+
+.contact input[name=first] {
+    margin-left: 34px;
+}
+
+.contact input[name=last] {
+    margin-left: 35px;
+}
+
+.contact input[name=email] {
+    margin-left: 6px;
+}
+
+.contact input[name=phone] {
+    margin-left: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,11 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Quench Cafe | Serving Delicious Drinks in the San Francisco Bay Area</title>
+        <title>Quench Cafe | Terms of Use</title>
         <!--Eric Meyer reset-->
         <link href="css/reset.css" rel="stylesheet" type="text/css">
         <!--Custom CSS-->
         <link href="css/styles.css" rel="stylesheet" type="text/css">
+
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,8 +19,8 @@
         <![endif]-->
     </head>
 
-    <!--Begin Home Page-->
-    <body id="home">
+    <!--Begin Terms of Use Page-->
+    <body id="terms">
     <section id="container">
 
         <!-----Header (Logo and side nav)---->
@@ -39,7 +40,7 @@
         </header>
 
         <!-----Main Content---->
-        <section class="main">
+        <section class="terms_main">
 
             <!---Social Media icons-->
             <section>
@@ -50,49 +51,57 @@
                 </p>
             </section><!--end of the social media section-->
 
-            <!--Placeholder image for the slide show-->
-            <img src="images/main_home.png" alt="Delicious Fruit Smoothies"/>
+            <section class="legal">
+                <h1>Terms of Use</h1>
 
-            <!---Special Offers-->
-            <section>
-                <h2>Special Offers</h2>
-                <p>Sign up to receive email and special offers from the Quench Cafe.</p>
-                <form method="post" action="">
-                    <input type="text" name="email_address" placeholder="Enter Email Address" value="">
-                    <input type="submit" value="Submit">
-                </form>
-            </section><!--end of the special offers section-->
 
-        </section><!--end of the main content section-->
+                <!--Information Legal Terms Section-->
+                <section>
+                    <article>
+                        <h2>Legal Terms</h2>
+                        <p>Thank you for using the Quench Cafe website. By using
+                            our site, you accept and agree to the following “Terms
+                            of Use.” If you do not agree to our “Terms of Use,”
+                            please do not use the website.</p>
 
-        <!------The Learn More Sub Content---->
-        <section class="subcontent">
+                        <p>1. Information on our website may be inaccurate. We try
+                            our best to maintain the website’s accuracy. However,
+                            we are only human and sometimes mistakes can occur.
+                            We cannot be held liable for incorrect information on the
+                            site. On the same note, information on our website may
+                            be updated without advance notice.</p>
 
-            <!--Menu-->
-            <section>
-                <img src="images/menuHomeSubContent.png" alt="Two hot, steaming cups of coffee."/>
-                <h3>Menu</h3>
-                <p>Whether you are in the mood for a hot drink, or a cold drink, the Quench Cafe has something on the menu for everyone.</p>
-                <a href="">Learn More</a>
-            </section>
+                        <p>2. Everything on the Quench Cafe website is
+                            copyrighted, owned, or licensed by the Quench Cafe.
+                            Unfortunately, we do not allow site visitors to use or
+                            modify any of the contents of our website without written
+                            permission. Our mailing address is P.O. Box 1234 Main
+                            St., Santa Clara, CA 95051.</p>
 
-            <!--Locations-->
-            <section>
-                <img src="images/locationsHomeSubContent.png" alt="Small map of the San Francisco Bay area."/>
-                <h3>Locations</h3>
-                <p>The Quench Cafe has three locations in the San Francisco Bay area. Our shops are located in Hayward, San Jose, and San Mateo.</p>
-                <a href="locations.html">Learn More</a>
-            </section>
 
-            <!--About Us-->
-            <section>
-                <img src="images/aboutusHomeSubContent.png" alt="Hot cup of coffee with a comment bubble."/>
-                <h3>About Us</h3>
-                <p>The Quench Cafe is a new restaurant in the San Francisco Bay area that focuses on high quality drinks made from the freshest ingredients.</p>
-                <a href="aboutus.html">Learn More</a>
-            </section>
+                        <p>3. We are not liable for any damages that may arise
+                            from using our website.</p>
 
-        </section><!--End of the sub content section-->
+                        <p>4. We respect your privacy! We will NEVER sell, or
+                            share your personal information with anyone. Your
+                            information is safe with us! If you have signed up to
+                            receive emails and special offers from the Quench Cafe,
+                            you will receive one email weekly unless we are offering
+                            a special promotion.</p>
+                    </article>
+
+                </section><!--End of the Legal Terms Section-->
+
+                <section>
+                    <img src="images/topTermsofUse.png" alt="An image of a legal document with a pen."/>
+                    <img src="images/bottomTermsofUse.png" alt="A man waiting to shake your hand."/>
+                </section>
+
+
+            </section><!--End of the info section-->
+        </section><!--End of aboutus main-->
+
+        <div class="border"></div>
 
         <!-------Footer------->
         <footer>
@@ -103,7 +112,7 @@
                 <li><a href="locations.html">Locations</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="terms.html">Terms of Use</a></li>
+                <li><a href="#" class="active">Terms of Use</a></li>
             </ul>
 
             <!--Cafe Hours-->
@@ -127,7 +136,11 @@
 
     </section><!--End of the container section-->
 
-    <!--Jquery File-->
+    <!--Jquery Files-->
     <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--File for jHere.js-->
+    <script src="js/jhere.min.js" type="text/javascript"></script>
+
     </body>
 </html>

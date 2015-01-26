@@ -4,11 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Quench Cafe | Serving Delicious Drinks in the San Francisco Bay Area</title>
+        <title>Quench Cafe | Contact Us</title>
         <!--Eric Meyer reset-->
         <link href="css/reset.css" rel="stylesheet" type="text/css">
         <!--Custom CSS-->
         <link href="css/styles.css" rel="stylesheet" type="text/css">
+
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,8 +19,8 @@
         <![endif]-->
     </head>
 
-    <!--Begin Home Page-->
-    <body id="home">
+    <!--Begin Contact Us Page-->
+    <body id="contactus">
     <section id="container">
 
         <!-----Header (Logo and side nav)---->
@@ -32,14 +33,14 @@
                         <li><a href="#">Menu</a></li>
                         <li><a href="locations.html">Locations</a></li>
                         <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#" class="active">Contact Us</a></li>
                     </ul>
                 </nav>
             </section>
         </header>
 
         <!-----Main Content---->
-        <section class="main">
+        <section class="contact_main">
 
             <!---Social Media icons-->
             <section>
@@ -50,49 +51,45 @@
                 </p>
             </section><!--end of the social media section-->
 
-            <!--Placeholder image for the slide show-->
-            <img src="images/main_home.png" alt="Delicious Fruit Smoothies"/>
+            <section class="contact">
+                <h1>Contact Us</h1>
 
-            <!---Special Offers-->
-            <section>
-                <h2>Special Offers</h2>
-                <p>Sign up to receive email and special offers from the Quench Cafe.</p>
-                <form method="post" action="">
-                    <input type="text" name="email_address" placeholder="Enter Email Address" value="">
-                    <input type="submit" value="Submit">
-                </form>
-            </section><!--end of the special offers section-->
+                <!--Contact Us Information Section-->
+                <h2>Questions or Comments?</h2>
+                <p>If you have any questions or comments, feel free to give us a call. There is always someone available to take your call during
+                    business hours. You may also fill in the form below to send us a message. We look forward to hearing from you!</p>
 
-        </section><!--end of the main content section-->
 
-        <!------The Learn More Sub Content---->
-        <section class="subcontent">
+                <section>
+                    <form method="post" action="">
+                        <label>First Name: <input type="text" name="first" placeholder="Enter First Name" value=""></label>
+                        <label>Last Name: <input type="text" name="last" placeholder="Enter Last Name" value=""></label>
+                        <label>Email Address: <input type="text" name="email" placeholder="Enter Email Address" value=""></label>
+                        <label>Phone Number: <input type="text" name="phone" placeholder="Enter Phone Number" value=""></label>
+                        <label>Comments:<textarea name="comments" placeholder="Enter your Questions or Comments"></textarea></label>
+                        <input type="submit" value="Submit">
+                    </form>
+                </section>
 
-            <!--Menu-->
-            <section>
-                <img src="images/menuHomeSubContent.png" alt="Two hot, steaming cups of coffee."/>
-                <h3>Menu</h3>
-                <p>Whether you are in the mood for a hot drink, or a cold drink, the Quench Cafe has something on the menu for everyone.</p>
-                <a href="">Learn More</a>
-            </section>
+                <section>
+                    <h4>Give Us a Call:</h4>
+                    <ul>
+                        <li><pre>Hayward     (510) 555 - 7328</pre></li>
+                        <li><pre>San Jose    (510) 555 - 0665</pre></li>
+                        <li><pre>San Mateo  (510) 555 - 1212</pre></li>
+                    </ul>
 
-            <!--Locations-->
-            <section>
-                <img src="images/locationsHomeSubContent.png" alt="Small map of the San Francisco Bay area."/>
-                <h3>Locations</h3>
-                <p>The Quench Cafe has three locations in the San Francisco Bay area. Our shops are located in Hayward, San Jose, and San Mateo.</p>
-                <a href="locations.html">Learn More</a>
-            </section>
+                    <h4>Store Managers:</h4>
+                    <ul>
+                        <li><pre>Hayward      Stacy Monroe</pre></li>
+                        <li><pre>San Jose      Jim Burris</pre></li>
+                        <li><pre>San Mateo    Kim Nguyen</pre></li>
+                    </ul>
+                </section>
+            </section><!--End of the Contact Section-->
+        </section><!--End of contact main-->
 
-            <!--About Us-->
-            <section>
-                <img src="images/aboutusHomeSubContent.png" alt="Hot cup of coffee with a comment bubble."/>
-                <h3>About Us</h3>
-                <p>The Quench Cafe is a new restaurant in the San Francisco Bay area that focuses on high quality drinks made from the freshest ingredients.</p>
-                <a href="aboutus.html">Learn More</a>
-            </section>
-
-        </section><!--End of the sub content section-->
+        <div class="border"></div>
 
         <!-------Footer------->
         <footer>
@@ -102,7 +99,7 @@
                 <li><a href="#">Menu</a></li>
                 <li><a href="locations.html">Locations</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#" class="active">Contact Us</a></li>
                 <li><a href="terms.html">Terms of Use</a></li>
             </ul>
 
@@ -127,7 +124,11 @@
 
     </section><!--End of the container section-->
 
-    <!--Jquery File-->
+    <!--Jquery Files-->
     <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--File for jHere.js-->
+    <script src="js/jhere.min.js" type="text/javascript"></script>
+
     </body>
 </html>

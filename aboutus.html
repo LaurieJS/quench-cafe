@@ -4,11 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Quench Cafe | Serving Delicious Drinks in the San Francisco Bay Area</title>
+        <title>Quench Cafe | About Us</title>
         <!--Eric Meyer reset-->
         <link href="css/reset.css" rel="stylesheet" type="text/css">
         <!--Custom CSS-->
         <link href="css/styles.css" rel="stylesheet" type="text/css">
+
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,8 +19,8 @@
         <![endif]-->
     </head>
 
-    <!--Begin Home Page-->
-    <body id="home">
+    <!--Begin About Us Page-->
+    <body id="aboutus">
     <section id="container">
 
         <!-----Header (Logo and side nav)---->
@@ -31,7 +32,7 @@
                     <ul>
                         <li><a href="#">Menu</a></li>
                         <li><a href="locations.html">Locations</a></li>
-                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="#" class="active">About Us</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </nav>
@@ -39,7 +40,7 @@
         </header>
 
         <!-----Main Content---->
-        <section class="main">
+        <section class="aboutus_main">
 
             <!---Social Media icons-->
             <section>
@@ -50,49 +51,57 @@
                 </p>
             </section><!--end of the social media section-->
 
-            <!--Placeholder image for the slide show-->
-            <img src="images/main_home.png" alt="Delicious Fruit Smoothies"/>
+            <section class="info">
+                <h1>About Us</h1>
 
-            <!---Special Offers-->
-            <section>
-                <h2>Special Offers</h2>
-                <p>Sign up to receive email and special offers from the Quench Cafe.</p>
-                <form method="post" action="">
-                    <input type="text" name="email_address" placeholder="Enter Email Address" value="">
-                    <input type="submit" value="Submit">
-                </form>
-            </section><!--end of the special offers section-->
 
-        </section><!--end of the main content section-->
+                <!--Information About Us Section-->
+                <section>
+                    <article>
+                        <h2>What is the Quench Cafe?</h2>
+                        <p>The Quench Cafe serves a wide variety of drinks from
+                            three locations in the San Francisco Bay area. Our goal
+                            is to make the highest quality drinks without breaking
+                            our customers' pocketbook.</p>
+                        <p>We roast our own coffee beans, make our own ice
+                            cream, and use only the freshest ingredients, which cuts
+                            down on costs and in turn we can pass those savings on
+                            to you.</p>
+                    </article>
 
-        <!------The Learn More Sub Content---->
-        <section class="subcontent">
+                    <article>
+                        <h2>Our Drinks</h2>
+                        <p>All of our drinks are made with finest and freshest
+                            ingredients. We are proud to use non-GMO products
+                            because we are concerned about the health of the
+                            environment, as well as our customers.</p>
+                        <p>In addition, we use sustainable products whenever
+                            possible, and attempt to keep our carbon footprint to a
+                            minimum.  The Earth and its inhabitants are very
+                            important to us.</p>
+                    </article>
 
-            <!--Menu-->
-            <section>
-                <img src="images/menuHomeSubContent.png" alt="Two hot, steaming cups of coffee."/>
-                <h3>Menu</h3>
-                <p>Whether you are in the mood for a hot drink, or a cold drink, the Quench Cafe has something on the menu for everyone.</p>
-                <a href="">Learn More</a>
-            </section>
+                    <article>
+                        <h2>Our Cafes</h2>
+                        <p>Each of our Cafes offers a comfortable dine-in seating
+                            area with free Wi-Fi and a relaxing atmosphere to sit
+                            and enjoy your drinks with friends and family. Our Cafes
+                            also offer drive-thru service for the times when you are
+                            in a hurry, and in need of a drink.</p>
+                    </article>
 
-            <!--Locations-->
-            <section>
-                <img src="images/locationsHomeSubContent.png" alt="Small map of the San Francisco Bay area."/>
-                <h3>Locations</h3>
-                <p>The Quench Cafe has three locations in the San Francisco Bay area. Our shops are located in Hayward, San Jose, and San Mateo.</p>
-                <a href="locations.html">Learn More</a>
-            </section>
+                </section><!--End of the information About Us Section-->
 
-            <!--About Us-->
-            <section>
-                <img src="images/aboutusHomeSubContent.png" alt="Hot cup of coffee with a comment bubble."/>
-                <h3>About Us</h3>
-                <p>The Quench Cafe is a new restaurant in the San Francisco Bay area that focuses on high quality drinks made from the freshest ingredients.</p>
-                <a href="aboutus.html">Learn More</a>
-            </section>
+                <section>
+                    <img src="images/topAboutUsPage.png" alt="A young woman that is ready to take your order."/>
+                    <img src="images/bottomAboutUsPage.png" alt="A server with drinks in a cup holder."/>
+                </section>
 
-        </section><!--End of the sub content section-->
+
+            </section><!--End of the info section-->
+        </section><!--End of aboutus main-->
+
+        <div class="border"></div>
 
         <!-------Footer------->
         <footer>
@@ -101,7 +110,7 @@
             <ul>
                 <li><a href="#">Menu</a></li>
                 <li><a href="locations.html">Locations</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="#" class="active">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
                 <li><a href="terms.html">Terms of Use</a></li>
             </ul>
@@ -127,7 +136,11 @@
 
     </section><!--End of the container section-->
 
-    <!--Jquery File-->
+    <!--Jquery Files-->
     <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--File for jHere.js-->
+    <script src="js/jhere.min.js" type="text/javascript"></script>
+
     </body>
 </html>
