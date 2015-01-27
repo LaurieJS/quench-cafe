@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Quench Cafe | Contact Us</title>
+        <title>Quench Cafe | Admin Edit Menu Item</title>
         <!--Eric Meyer reset-->
         <link href="css/reset.css" rel="stylesheet" type="text/css">
         <!--Custom CSS-->
@@ -19,8 +19,8 @@
         <![endif]-->
     </head>
 
-    <!--Begin Contact Us Page-->
-    <body id="contactus">
+    <!--Begin Edit Menu Item Page-->
+    <body id="edit_item">
     <section id="container">
 
         <!-----Header (Logo and side nav)---->
@@ -33,14 +33,14 @@
                         <li><a href="menu.html">Menu</a></li>
                         <li><a href="locations.html">Locations</a></li>
                         <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="#" class="active">Contact Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </nav>
             </section>
         </header>
 
         <!-----Main Content---->
-        <section class="contact_main">
+        <section class="edit_main">
 
             <!---Social Media icons-->
             <section>
@@ -51,43 +51,56 @@
                 </p>
             </section><!--end of the social media section-->
 
-            <section class="contact">
-                <h1>Contact Us</h1>
+            <section class="edit">
+                <h1>Edit Menu Item</h1>
 
-                <!--Contact Us Information Section-->
-                <h2>Questions or Comments?</h2>
-                <p>If you have any questions or comments, feel free to give us a call. There is always someone available to take your call during
-                    business hours. You may also fill in the form below to send us a message. We look forward to hearing from you!</p>
-
-
-                <section>
-                    <form method="post" action="">
-                        <label>First Name: <input type="text" name="first" placeholder="Enter First Name" value=""></label>
-                        <label>Last Name: <input type="text" name="last" placeholder="Enter Last Name" value=""></label>
-                        <label>Email Address: <input type="text" name="email" placeholder="Enter Email Address" value=""></label>
-                        <label>Phone Number: <input type="text" name="phone" placeholder="Enter Phone Number" value=""></label>
-                        <label>Comments:<textarea name="comments" placeholder="Enter your Questions or Comments"></textarea></label>
-                        <input type="submit" value="Submit">
-                    </form>
-                </section>
+                <!--Edit Menu Item Information Section-->
+                <h2>Directions</h2>
+                <p>To edit the menu item below, fill in the form with updated information and click the “Edit Item” button to submit the changes. If
+                    you would like to delete the item, click the “Delete Item” link.</p>
 
                 <section>
-                    <h4>Give Us a Call:</h4>
-                    <ul>
-                        <li><pre>Hayward     (510) 555 - 7328</pre></li>
-                        <li><pre>San Jose    (510) 555 - 0665</pre></li>
-                        <li><pre>San Mateo  (510) 555 - 1212</pre></li>
-                    </ul>
+                    <section>
+                        <h4>Item to Edit:</h4>
+                        <ul>
+                            <li>Item Name: <span>Frappe</span></li>
+                            <li>Item Price: <span>$3.99</span></li>
+                            <li>Item Category: <span>Coffees</span></li>
+                            <li>Item Description: <span>Coffee, milk, a flavoring of your choice, and coffee ice cubes blended together.</span></li>
+                        </ul>
 
-                    <h4>Store Managers:</h4>
-                    <ul>
-                        <li><pre>Hayward      Stacy Monroe</pre></li>
-                        <li><pre>San Jose      Jim Burris</pre></li>
-                        <li><pre>San Mateo    Kim Nguyen</pre></li>
-                    </ul>
+                    </section>
+
+
+                    <section>
+                        <h4>Edit Item Here:</h4>
+                        <form method="post" action="">
+                            <label>Item Name: <input type="text" name="item_name" placeholder="Frappe" value=""></label>
+                            <label>Item Price: <input type="text" name="item_price" placeholder="$4.29" value=""></label>
+                            <label>Item Category:
+                                <select>
+                                    <option value="coffees" name="coffees">Coffees</option>
+                                    <option value="floats" name="floats">Floats</option>
+                                    <option value="healthy" name="healthy">Healthy Drinks</option>
+                                    <option value="shakes" name="shakes">Shakes</option>
+                                    <option value="slushes" name="slushes">Slushes</option>
+                                    <option value="smoothies" name="smoothies">Smoothies</option>
+                                    <option value="softdrinks" name="softdrinks">Soft Drinks</option>
+                                    <option value="teas" name="teas">Teas</option>
+                                </select>
+
+                            </label>
+                            <label>Item Description: <span>(Must be less than 90 characters)</span>
+                                <textarea name="item_description" placeholder="Coffee, milk, a flavoring of your choice, and coffee ice cubes blended together."></textarea>
+                            </label>
+                            <input type="submit" value="Edit Item">
+                            <a href="#">Delete Item</a>
+                        </form>
+                    </section>
                 </section>
-            </section><!--End of the Contact Section-->
-        </section><!--End of contact main-->
+
+            </section><!--End of the Edit Section-->
+        </section><!--End of edit main-->
 
         <div class="border"></div>
 
@@ -99,7 +112,7 @@
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="locations.html">Locations</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="#" class="active">Contact Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
                 <li><a href="terms.html">Terms of Use</a></li>
             </ul>
 
