@@ -9,8 +9,6 @@ window.onload = function(){
 
 
     /******Code for the jHere map******/
-
-
     /************Hayward**************/
     var map1 = document.getElementById("mapHayward");
 
