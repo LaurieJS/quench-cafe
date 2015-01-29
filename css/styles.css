@@ -47,6 +47,14 @@ header a {
     color: #1dafbd;
 }
 
+header nav a:hover, footer a:hover {
+    color: #000000;
+}
+
+header nav a:active, footer a:active {
+    color: #A1bdc0;
+}
+
 /*Active links*/
 .active {
     color: #a1bdc0;
@@ -121,6 +129,16 @@ section.main {
     font-size: 19px;
 }
 
+.main input[type=submit]:hover {
+    background-color: #000000;
+    color: #1dafbd;
+}
+
+.main input[type=submit]:active {
+    background-color: #a1bdc0;
+    color: #000000;
+}
+
 /**************Subcontent*********/
 .subcontent {
     width: 100%;
@@ -170,6 +188,14 @@ section.main {
     margin-top: 5px;
     color: #1dafbd;
     font-size: 17px;
+}
+
+.subcontent a:hover {
+    color: #000000;
+}
+
+.subcontent a:active {
+    color: #a1bdc0;
 }
 
 
@@ -234,8 +260,10 @@ footer pre {
 footer p {
     clear: both;
     text-align: center;
+    margin-bottom: 5px;
     padding-top: 25px;
     font-size: 13px;
+    color: #666666;
 }
 
 
@@ -550,6 +578,16 @@ section.coffees_main {
 
 }
 
+.coffees a:hover {
+    background-color: black;
+    color: #1dafbd;
+}
+
+.coffees a:active {
+    background-color: #a1bdc0;
+    color: #000000;
+}
+
 .coffees h2 {
     font-size: 26px;
     margin-top: 22px;
@@ -694,11 +732,22 @@ section.contact_main {
     margin-left: 75px;
 }
 
+.contact input[type=submit]:hover {
+    color: #1dafbd;
+    background-color: black;
+}
+
+.contact input[type=submit]:active {
+    color: black;
+    background-color: #a1bdc0;
+}
+
 .contact form textarea {
     display: block;
     width: 338px;
     height: 139px;
     margin-top: 5px;
+    font-size: 16px;
 }
 
 .contact h2 {
@@ -802,6 +851,16 @@ section.login_main {
     font-size: 19px;
     margin-top: 15px;
     /*margin-left: 75px;*/
+}
+
+.login input[type=submit]:hover {
+    color: #1dafbd;
+    background-color: black;
+}
+
+.login input[type=submit]:active {
+    color: #000000;
+    background-color: #a1bdc0;
 }
 
 .login input[type=text] {
@@ -952,10 +1011,29 @@ section.edit_main {
     /*margin-left: 75px;*/
 }
 
+.edit input[type=submit]:hover {
+    color: #1dafbd;
+    background-color: black;
+}
+
+.edit input[type=submit]:active {
+    color: #000000;
+    background-color: #a1bdc0;
+}
+
+
 .edit a {
     margin-left: 52px;
     color: #a53108;
     font-size: 19px;
+}
+
+.edit a:hover {
+    color: black;
+}
+
+.edit a:active {
+    color: #a1bdc0;
 }
 
 .edit li {
@@ -1078,7 +1156,16 @@ section.edit_confirm_main {
     padding-bottom: 12px;
     text-align: center;
     font-size: 19px;
+}
 
+.confirm > section > section:first-of-type a:hover {
+    color: #1dafbd;
+    background-color: black;
+}
+
+.confirm > section > section:first-of-type a:active {
+    color: #000000;
+    background-color: #a1bdc0;
 }
 
 .confirm > section > section:last-of-type a {
@@ -1091,6 +1178,16 @@ section.edit_confirm_main {
     color: white;
     background-color: #1dafbd;
     font-size: 19px;
+}
+
+.confirm > section > section:last-of-type a:hover {
+    color: #1dafbd;
+    background-color: #000000;
+}
+
+.confirm > section > section:last-of-type a:active {
+    color: #000000;
+    background-color: #a1bdc0;
 }
 
 
@@ -1359,6 +1456,14 @@ section.admin_menu_main {
 
 .admin_menu_info a {
     color: #1dafbd;
+}
+
+.admin_menu_info a:hover {
+    color: #000000;
+}
+
+.admin_menu_info a:active {
+    color: #a1bdc0;
 }
 
 
