@@ -4,6 +4,22 @@
  * January 29, 2015
  */
 
+$(document).ready(function() {
+
+    //I just added this entire section--testing the slide show on the home page
+
+    $('#slider').anythingSlider({
+        theme: 'minimalist-round',
+        mode: 'fade',
+        buildNavigation: true,
+        infiniteSlides: true,
+        autoPlay: true,
+        delay: 5000
+    });
+
+});
+
+
 //Window.onload function
 window.onload = function(){
 

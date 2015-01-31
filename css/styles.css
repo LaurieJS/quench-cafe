@@ -83,9 +83,26 @@ section.main {
 }
 
 .main > img {
-    width: 923px;
-    height: auto;
+    /*width: 923px;
+    height: auto;*/
 }
+
+
+/******testing--I just added this for the slide show*******/
+div#hero {
+    width: 921px;
+    height: 501px;
+    margin: 0;
+    padding: 0;
+    clear: both;
+
+}
+
+ul#slider, ul#slider li {
+    list-style: none;
+    border: none;
+}
+
 
 /******Special Offers*******/
 

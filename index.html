@@ -7,6 +7,14 @@
         <title>Quench Cafe | Home</title>
         <!--Eric Meyer reset-->
         <link href="css/reset.css" rel="stylesheet" type="text/css">
+
+        <!--Just added these and commented out the jquery below-->
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/jquery.anythingslider.js"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+        <link href="css/theme-minimalist-round.css" type="text/css" rel="stylesheet">
+
+
         <!--Custom CSS-->
         <link href="css/styles.css" rel="stylesheet" type="text/css">
 
@@ -51,7 +59,17 @@
             </section><!--end of the social media section-->
 
             <!--Placeholder image for the slide show-->
-            <img src="images/main_home.png" alt="Delicious Fruit Smoothies"/>
+            <!--<img src="images/main_home.png" alt="Delicious Fruit Smoothies"/>-->
+
+            <div id="hero">
+                <ul id="slider">
+                    <li><img src="images/main_home.png"/></li>
+                    <li><img src="images/home_coffees.png"/></li>
+                    <li><img src="images/home_juice2.png"/></li>
+                    <li><img src="images/home_shakes.png"/></li>
+                </ul>
+            </div>
+
 
             <!---Special Offers-->
             <section class="special">
@@ -128,6 +146,6 @@
     </section><!--End of the container section-->
 
     <!--Jquery File-->
-    <script src="js/jquery-1.11.0.min.js"></script>
+    <!--<script src="js/jquery-1.11.0.min.js"></script>-->
     </body>
 </html>
