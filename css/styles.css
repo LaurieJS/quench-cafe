@@ -662,6 +662,34 @@ section.coffees_main {
     margin-left: 52px;
 }
 
+/******Shadowbox*****/
+div#sb-overlay {
+    background-color: white !important;
+    opacity: 0.8 !important;
+}
+
+div#sb-wrapper {
+    background-color: #4d4d4d !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div#sb-title {
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+div#sb-counter {
+    padding-left: 10px;
+}
+
+div#sb-info {
+    padding-top: 10px;
+}
+
+div#sb-nav {
+    padding-right: 10px;
+}
 
 /***********************************************Contact Us Page******************************/
 .contact_main > section:first-of-type {
