@@ -691,6 +691,133 @@ div#sb-nav {
     padding-right: 10px;
 }
 
+/***********************************************Floats Page******************************/
+.floats_main > section:first-of-type {
+    width: 11.5%;
+    float: right;
+    margin-top: 20px;
+    margin-right: -8px;
+    margin-bottom: 20px;
+}
+
+.floats_main > section:first-of-type p:first-of-type {
+    text-align: center;
+}
+
+/*********Main Content*********/
+section.floats_main {
+    width: 923px; /*74.21875%;*/
+    float: left;
+    margin-right: 47px;
+}
+
+.floats_main h1 {
+    clear: both;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    border-bottom: 2px dashed black;
+}
+
+/*****Coffees Info section*******/
+.float_info > section:first-of-type {
+    width: 50%;
+    float:left;
+}
+/*****Coffees Images section*******/
+.float_info > section:last-of-type {
+    width: 50%;
+    float:right;
+    margin-top: 47px;
+    margin-bottom: 47px;
+}
+
+.float_info > section img:first-of-type {
+    margin-bottom: 47px;
+}
+
+.float_info a {
+    display: block;
+    width: 259px;
+    height: 32px;
+    background-color: #1dafbd;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    margin: 40px auto 0 auto;
+    color: white;
+    font-size: 19px;
+
+}
+
+.float_info a:hover {
+    background-color: black;
+    color: #1dafbd;
+}
+
+.float_info a:active {
+    background-color: #a1bdc0;
+    color: #000000;
+}
+
+.float_info h2 {
+    font-size: 26px;
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+
+.float_info p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-right: 47px;
+}
+.float_info p:nth-of-type(2) {
+    margin-top: 8px;
+}
+
+/*****Image Gallery*****/
+
+.float_gallery {
+    width: 100%;
+    height: 621px;
+    background-color: rgba(29, 175, 189, .20);
+    clear: both;
+}
+
+.float_gallery h3 {
+    padding-top: 84px;
+    margin-left: 47px;
+    font-size: 24px;
+}
+
+.float_gallery p {
+    margin-left: 47px;
+    margin-top: 10px;
+}
+
+.float_gallery h4 {
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.float_gallery section {
+    width: 360px;
+    height: 390px;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.float_gallery section:first-of-type {
+    margin-left: 47px;
+}
+
+.float_gallery section:nth-of-type(2) {
+    margin-right: 52px;
+    margin-left: 52px;
+}
+
 /***********************************************Contact Us Page******************************/
 .contact_main > section:first-of-type {
     width: 11.5%;

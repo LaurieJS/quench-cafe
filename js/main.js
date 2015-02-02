@@ -21,9 +21,11 @@ $(document).ready(function() {
     }//end of Anything Slider
 
 
-    //Coffees page Shadowbox
-    if ($("body#coffees").length){
-        Shadowbox.init();
+    //Shadowboxes for the galleries
+    if ($("body#coffees").length || $("body#floats").length){
+        Shadowbox.init({
+            continuous: true
+        });
     }//end of Shadowbox
 
 });
