@@ -51,11 +51,6 @@ window.onload = function(){
     //}//end of Anything Slider
 
 
-
-
-
-
-
     if ($("body#locations").length) {
         //******Code for the jHere map******/
         //************Hayward**************/
