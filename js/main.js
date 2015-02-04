@@ -22,7 +22,9 @@ $(document).ready(function() {
 
 
     //Shadowboxes for the galleries
-    if ($("body#coffees").length || $("body#floats").length){
+    if ($("body#coffees").length || $("body#floats").length || $("body#healthy_drinks").length
+        || $("body#shakes").length || $("body#slushes").length || $("body#smoothies").length
+        || $("body#softdrinks").length || $("body#teas").length){
         Shadowbox.init({
             continuous: true
         });
@@ -33,6 +35,26 @@ $(document).ready(function() {
 
 //Window.onload function
 window.onload = function(){
+
+
+    //Home page image slider  Anything Slider
+    //if ($("body#home").length) {
+        //Home Page slider
+        //$('#slider').anythingSlider({
+            //theme: 'minimalist-round',
+            //mode: 'fade',
+            //buildNavigation: true,
+            //infiniteSlides: true,
+            //autoPlay: true,
+            //delay: 3500
+        //});
+    //}//end of Anything Slider
+
+
+
+
+
+
 
     if ($("body#locations").length) {
         //******Code for the jHere map******/
